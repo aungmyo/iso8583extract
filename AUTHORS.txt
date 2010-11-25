@@ -1,0 +1,11 @@
+Developed By:
+Kadek Wisnu Arsadhi <kadek.wisnu@gmail.com>
+
+Special Thanks:
+Markus Künkler 
+The QSkinObject project
+http://sourceforge.net/projects/qskinwindows/
+
+The iso8583 extract is built on top of Qt 4.x framework
+http://qt.nokia.com/
+
