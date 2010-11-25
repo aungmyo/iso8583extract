@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<iso8583-extract-config>
+
+    <!--
+	    WARNING: DEFAULT CONFIG FOR EXTRACTION
+	      Only modify length of each bit fields 
+	      Also possible to insert additional bit fields  but check the format
+           -->
+    <header length="0" desc="Header Prefix on certain iso message" />
+	<bit number="1" length="16" desc="Primary/Secondary Bitmap"/>
+	<bit number="2" length="LLVAR" desc="Primary Account Number"/>
+	<bit number="3" length="6" desc="Processing Code"/>
+	<bit number="4" length="12" desc="Transaction Amount"/>
+	<bit number="7" length="10" desc="Transmission Date Time"/>
+	<bit number="11" length="6" desc="System Trace Audit Number"/>
+	<bit number="12" length="6" desc="Local Transaction Time"/>
+	<bit number="13" length="4" desc="Local Transaction Date"/>
+	<bit number="14" length="4" desc="Expiration Date"/>
+	<bit number="15" length="4" desc="Settlement Date"/>
+	<bit number="17" length="4" desc="Capture Date"/>
+	<bit number="18" length="4" desc="Merchant Type"/>
+	<bit number="19" length="3" desc="Acquiring Institution Country Code"/>
+	<bit number="22" length="3" desc="Point of Service Entry Code"/>
+	<bit number="25" length="2" desc="Point of Service Condition Code"/>
+	<bit number="26" length="2" desc="Point of Service PIN Capture Code"/>
+	<bit number="27" length="1" desc="Authorization Identification Response Length"/>
+	<bit number="29" length="9" desc="Amount Settlement Fee"/>
+	<bit number="31" length="9" desc="Amount Settlement Processing Fee"/>
+	<bit number="32" length="LLVAR" desc="Acquiring Institution Identification Code"/>
+	<bit number="33" length="LLVAR" desc="Forwarding References Number"/>
+	<bit number="35" length="LLVAR" desc="Track 2 Data"/>
+	<bit number="37" length="12" desc="Retrieval References Number"/>
+	<bit number="38" length="6" desc="Authorization Identification Response Code"/>
+	<bit number="39" length="2" desc="Response Code"/>
+	<bit number="41" length="8" desc="Card Acceptor Terminal Identification"/>
+	<bit number="42" length="15" desc="Card Acceptor Identification"/>
+	<bit number="43" length="40" desc="Card Acceptor Name/Location"/>
+	<bit number="44" length="LLVAR" desc="Additional Response Data"/>
+	<bit number="48" length="LLLVAR" desc="Additional Private Data"/>
+	<bit number="49" length="3" desc="Transaction Currency Code"/>
+	<bit number="52" length="16" desc="PIN"/>
+	<bit number="53" length="16" desc="Security Control Information"/>
+	<bit number="54" length="LLLVAR" desc="Additional Amount"/>
+	<bit number="57" length="LLLVAR" desc="Additional Info"/>
+	<bit number="60" length="LLLVAR" desc="Private Data 1"/>
+	<bit number="61" length="LLLVAR" desc="Private Data 2"/>
+	<bit number="63" length="LLLVAR" desc="Transaction Type"/>
+	<bit number="70" length="3" desc="Network Management Information Code"/>
+	<bit number="90" length="42" desc="Original Data Elements"/>
+	<bit number="95" length="42" desc="Replacement Amount"/>
+	<bit number="100" length="LLVAR" desc="Issuer Institution Identification Code"/>
+	<bit number="102" length="LLVAR" desc="Account Identification 1"/>
+	<bit number="103" length="LLVAR" desc="Account Identification 2"/>
+	<bit number="104" length="LLLVAR" desc="Transaction Description"/>
+	<bit number="111" length="LLLVAR" desc="Additional Data"/>
+	<bit number="120" length="LLLVAR" desc="New Key Data"/>
+	<bit number="123" length="LLLVAR" desc="Cryptographic Service Message"/>
+	<bit number="125" length="LLLVAR" desc="Transfer Indicator"/>
+	<bit number="126" length="LLLVAR" desc="Payment Data"/>
+	<bit number="127" length="LLLVAR" desc="Destination Institution Identification Code"/>
+	<bit number="128" length="64" desc="Message Authentication Code"/>
+
+	<!-- End of ISO 8583 Config -->
+</iso8583-extract-config>
