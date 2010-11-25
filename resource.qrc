@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/">
+        <file>skin/black.svg</file>
+        <file>skin/skin.dat</file>
+        <file>config.xml</file>
+        <file>logo.ico</file>
+        <file>logo.png</file>
+    </qresource>
+</RCC>
