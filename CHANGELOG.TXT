@@ -1,0 +1,13 @@
+
+***** VERSION 1.0.0 (2010-11-25):
+Finished first public version of the application
+
+Features:
+
+- Extract bit fields of any ISO 8583 financial based messages
+- Can be adjusted in order to match any ISO 8583 messages
+- Configuration is based on XML with simple, clear, and readable format
+- Open source under GPL license, implement modern look and feel interface
+- Developed on top of Qt 4 cross platform C++ framework (http://qt.nokia.com/)
+- This software uses the QSkinObject project
+- QSkinObject is another great open source project for skinning Qt based application (http://sourceforge.net/projects/qskinwindows/) 
